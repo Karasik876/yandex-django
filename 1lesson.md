@@ -69,4 +69,4 @@ REST API Fake Store - https://fakestoreapi.com/
 })
     .then(res => res.json())
     .then(newUser => console.log(newUser));
-  ```
+    ```
