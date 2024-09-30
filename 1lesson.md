@@ -13,11 +13,12 @@ REST API Fake Store - https://fakestoreapi.com/
 ***
 
 - 1 Вывести продукты, цена которых <20
+  ```
   fetch('https://fakestoreapi.com/products')
     .then(res => res.json())
     .then(products => {
         const productsLowCost = products.filter(product => product.price < 20);
         console.log(productsLowCost);
     });
-  
+  ```
 - 2 Вывести все категории
