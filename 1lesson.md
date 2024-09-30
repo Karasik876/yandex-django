@@ -40,7 +40,7 @@ REST API Fake Store - https://fakestoreapi.com/
     .then(users => console.log(users));
   ```
 - 5 Добавить пользователя со своим именем
-  ```
+```
   fetch('https://fakestoreapi.com/users', {
     method: "POST",
     body: JSON.stringify({
@@ -69,4 +69,4 @@ REST API Fake Store - https://fakestoreapi.com/
 })
     .then(res => res.json())
     .then(newUser => console.log(newUser));
-    ```
+```
